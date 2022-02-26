@@ -1,0 +1,14 @@
+{
+  "name": "purim_bingo",
+  "version": "1.0.0",
+  "description": "bingo game for purim",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yarden",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

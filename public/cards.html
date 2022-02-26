@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href=".\css\style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+    <title>מחולל כרטיסים</title>
+  </head>
+
+  <body id="body">
+    מחולל כרטיסים
+    <br />
+    <div>בינגו פורים</div>
+    <div id="card"></div>
+    <div class="text" id="cardtext"></div>
+    <hr />
+    <button class="button button1" onclick="insertText()">הוסיפי שורה</button>
+    <input id="cardnum" type="text" placeholder="מס' כרטיס" maxlength="4" />
+    <br />
+    <button class="button button1" onclick="generateCard()">צרי כרטיס</button>
+    <button class="button button1" onclick="save()">העתיקי נתונים</button>
+    <script type="text/javascript" src="..\Bingo.js"></script>
+    <script type="text/javascript" src="..\CardGenerator.js"></script>
+    <script type="text/javascript" src="..\data.js"></script>
+  </body>
+</html>

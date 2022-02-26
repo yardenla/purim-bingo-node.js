@@ -1,0 +1,80 @@
+body {
+  font-family: "Alef";
+  font-weight: bold;
+  text-align: center;
+  font-size: 25pt;
+}
+img {
+  width: 10%;
+  height: 10%;
+}
+.chosenImg {
+  width: 25%;
+  height: 25%;
+}
+
+button {
+  font-family: "Alef";
+  font-weight: bold;
+  text-align: center;
+  font-size: 25pt;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: grey;
+}
+button:disabled:hover {
+  background-color: grey;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  background-color: #66e96a;
+  color: black;
+  border: none;
+}
+
+.button:hover {
+  background-color: #4db851; /* Green */
+  color: black;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cell {
+  display: inline-table;
+  width: 85%;
+  height: 85%;
+}
+
+input {
+  text-align: center;
+  font-family: "Alef";
+  font-size: medium;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: large;
+  text-align: center;
+  font-family: "Alef";
+  font-weight: bold;
+}
+
+a {
+  font-size: 15px;
+}
+
+.winner {
+  text-align: center;
+  direction: rtl;
+  font-size: large;
+  font-weight: bold;
+}

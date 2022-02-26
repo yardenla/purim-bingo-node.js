@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href=".\css\style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+    <title>Purim Bingo</title>
+  </head>
+
+  <body id="body">
+    בינגו פורים
+    <br />
+    <button id="check" class="button button1" onclick="getCard()">
+      בדק.י כרטיס
+    </button>
+    <div id="winners" class="winner" style="display: none">מנצחים:</div>
+    <p id="result"></p>
+    <img id="image" class="chosenImg" src=".\startPic.png" />
+    <br />
+    <button id="btn" class="button button1" onclick="generate()">
+      לחצ.י לבחור תמונה
+    </button>
+    <div>:יצאו בעבר</div>
+    <div id="used"></div>
+    <br />
+    <br />
+    <hr />
+    <a href=".\cards.html">מחולל כרטיסים</a>
+    <script type="text/javascript" src="..\confetti.js"></script>
+    <script type="text/javascript" src="..\Bingo.js"></script>
+    <script type="text/javascript" src="..\data.js"></script>
+  </body>
+</html>
